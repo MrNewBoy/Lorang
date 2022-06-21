@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@400;900&display=swap');
+.main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../Images/pexels-roberto-nickson-2775196.jpg");
+    background-size: cover;
+    background-position:inherit;
+    background-repeat: no-repeat;
+    opacity: 0.85;
+    height:100vh;
+}
+.main-box{   
+    align-items: center;
+    /* width:40vw; */
+    /* height:32.5vh; */
+}
+.main-display{
+    box-shadow: rgba(17, 17, 26, 0.1) 10px 10px 16px;
+    /* padding-top:9%; */
+    width: 40vw;
+    
+}
+
+.arrow-icon{
+    height: 5rem!important;
+    font-size: 3.5rem!important;
+    margin: 2rem;
+    opacity: 0.4;
+}
+.arrow-icon:hover{
+    opacity: 0.8;
+}
+
+.paper-items{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-left:3%
+}
+
+.city
+{
+    position: relative;
+    padding-left: 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem!important;
+}
+
+.temp
+{
+    position: relative;
+    /* float: left; */
+    ; 
+}
+.humidity
+{
+    float: right;
+    margin-right: 6%;
+}
+.windspeed
+{
+    margin-left: 3%;
+}
+.sunrise
+{
+     margin-left: 3%;
+}
+.sunset
+{   
+    margin-left: 3%;
+}
+
+#degree-symbol
+{
+    position: absolute;
+    margin-right: 1%;
+    font-size: 1rem !important;
+}
+.degree-box
+{
+    margin:0.2rem ;
+}

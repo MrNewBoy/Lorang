@@ -1,0 +1,5 @@
+{
+    "Berlin":"https://api.open-meteo.com/v1/forecast?latitude=52.5235&longitude=13.4115&hourly=relativehumidity_2m,apparent_temperature,windspeed_120m&daily=sunrise,sunset&current_weather=true&timezone=Europe%2FBerlin",
+    "New Delhi":"https://api.open-meteo.com/v1/forecast?latitude=28.6353&longitude=77.2250&hourly=relativehumidity_2m,apparent_temperature,windspeed_120m&daily=sunrise,sunset&current_weather=true&timezone=Asia%2FSingapore",
+    "New York":"https://api.open-meteo.com/v1/forecast?latitude=40.71&longitude=-74.01&hourly=relativehumidity_2m,apparent_temperature,windspeed_120m&daily=sunrise,sunset&current_weather=true&timezone=America%2FNew_York"
+}
